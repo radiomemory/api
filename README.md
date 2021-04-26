@@ -15,6 +15,7 @@ O serviço é capaz de reconhecer a grande maioria das imagens geradas durante u
 #### Classificação nível 1
 Inclui apenas o tipo de imagem: panorâmica, periapical, foto frontal, intraoral esquerda, etc
 
+
 ## Roadmap (serviços planejados)
 Os serviços abaixo estão no pipeline de desenvolvimento e serão disponibilizados em breve.
 
