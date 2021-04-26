@@ -4,7 +4,7 @@ Há mais de 25 anos a Radio Memory contribui com o desenvolvimento da radiologia
 
 Sempre atenta aos avanços tecnológicos, a empresa apostou forte em inteligência artificial, direcionando suas principais mentes nessa frente de trabalho. Centenas de clínicas radiológicas em todo o Brasil já estão se beneficiando dessa tecnologia de ponta.
 
-Com objetivo de impactar positivamente ainda mais, estamos disponibilizando acesso a estes serviços, possibilitando que outros players do mercado odontológico possam usufruir dessa tecnologia de ponta.
+Com objetivo de impactar positivamente ainda mais, estamos disponibilizando acesso a estes serviços, possibilitando que outros players do mercado odontológico possam usufruir dessa tecnologia a um custo acessível.
 
 
 ## Catálogo (serviços disponíveis)
