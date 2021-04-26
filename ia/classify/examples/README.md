@@ -3,7 +3,7 @@
 ## Classificação de imagens(https://api.radiomemory.com.br/ia/classify)
 O serviço é capaz de reconhecer a grande maioria das imagens geradas durante um tratamento odontológico, sejam radiográficas ou fotográficas.
 
-### Acionando o serviço
+### Acionando o serviço (veja os exemplos para mais detalhes)
 
 ```
 headers = {"Content-type": "application/json", "Accept": "text/plain"}
@@ -16,11 +16,16 @@ post = {
   }
 ```
 #### key
-chave de autenticação que permite o acesso ao serviço. Solicite-a através de desenvolvimento@radiomemory.com.br.
+Chave de autenticação que permite o acesso ao serviço. Solicite-a através de desenvolvimento@radiomemory.com.br.
 #### image
-base64 da imagem
+Base64 da imagem.
 #### type
-nível de informação sobre a imagem que será retornado. Por hora, apenas o nível 1 está ativo. Em breve, outros níveis serão disponibilizados.
+Nível de informação sobre a imagem que será retornado. Por hora, apenas o nível 1 está ativo. Em breve, outros níveis serão disponibilizados.
 
 #### Classificação nível 1
-Inclui apenas o tipo de imagem: panorâmica, periapical, foto frontal, intraoral esquerda, etc.
+Retona o tipo de imagem odontológica, entre os seguintes:
+##### panorâmica
+##### periapical
+##### foto frontal
+##### intraoral esquerda
+##### COMPLETAR!!!!
