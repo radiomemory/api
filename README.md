@@ -39,8 +39,8 @@ Serviço para realização de análises cefalométricas. 3 tipos de chamadas dif
 ### Identificação de dentes
 Reconhece com grande precisão dentes presentes e ausentes em radiografias panorâmicas. Mais detalhes sobre o serviço aqui.
 
-#### Classificação nível 3
+#### Classificação nível 1
 Informa os dentes presentes e ausentes. No momento, o nível 3 é apenas para radiografias panorâmicas.
 
-#### Classificação nível 4
+#### Classificação nível 2
 Também informa as coordenadas do longo eixo de cada dente encontrado.
