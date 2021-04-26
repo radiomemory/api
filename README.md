@@ -10,7 +10,7 @@ Com objetivo de impactar positivamente ainda mais, estamos disponibilizando aces
 ## Catálogo (serviços disponíveis)
 
 ### Classificação de imagens(https://api.radiomemory.com.br/ia/classify)
-O serviço é capaz de reconhecer a grande maioria das imagens geradas durante um tratamento odontológico, sejam radiográficas ou fotográficas. Mais detalhes sobre o serviço aqui.
+O serviço é capaz de reconhecer a grande maioria das imagens geradas durante um tratamento odontológico, sejam radiográficas ou fotográficas. Mais detalhes sobre o serviço [aqui](https://github.com/radiomemory/api/tree/main/ia/classify).
 
 #### Classificação nível 1....................5 centavos/imagem
 Inclui apenas o tipo de imagem: panorâmica, periapical, foto frontal, intraoral esquerda, etc
