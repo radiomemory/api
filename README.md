@@ -1,4 +1,4 @@
-# API RADIO MEMORY
+# RADIO MEMORY API
 
 Há mais de 25 anos a Radio Memory contribui com o desenvolvimento da radiologia odontológica, aprimorando e organizando a produção e acesso a imagens, diagnósticos e tratamentos dentários.
 
