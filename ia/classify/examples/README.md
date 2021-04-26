@@ -5,14 +5,15 @@ O serviço é capaz de reconhecer a grande maioria das imagens geradas durante u
 
 ### Acionando o serviço
 
-```headers = {"Content-type": "application/json", "Accept": "text/plain"}
-    #https://api.radiomemory.com.br/ia/classify
-    url = '/ia/classify'
-    post = {
-        "key":key,
-        "image": image,
-        "type":1
-    }
+```
+headers = {"Content-type": "application/json", "Accept": "text/plain"}
+#https://api.radiomemory.com.br/ia/classify
+url = '/ia/classify'
+post = {
+  "key":key,
+  "image": image,
+  "type":1
+  }
 ```
 #### key
 chave de autenticação que permite o acesso ao serviço. Solicite-a através de desenvolvimento@radiomemory.com.br.
