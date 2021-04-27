@@ -7,14 +7,24 @@ O serviço é capaz de reconhecer a grande maioria das imagens geradas durante u
 ### Acionando o serviço (veja os exemplos para mais detalhes)
 
 ```
-headers = {"Content-type": "application/json", "Accept": "text/plain"}
-#https://api.radiomemory.com.br/ia/classify
-url = '/ia/classify'
-post = {
-  "key":key,
-  "image": image,
-  "type":1
-  }
+    headers = {"Content-type": "application/json", "Accept": "text/plain"}
+    #https://api.radiomemory.com.br/ia/classify
+    url = '/ia/classify'
+    post = {
+        "key":key,
+        "image": image,
+        "type":1
+    }
+    httplib = http.client
+
+    try:
+        conn = httplib.HTTPSConnection('api.radiomemory.com.br')
+        conn.request("POST", url, json.dumps(post),headers)
+        res = conn.getresponse()
+        dec = res.read().decode()
+        return dec
+    except Exception as e:
+        print(e)
 ```
 #### key
 Chave de autenticação que permite o acesso ao serviço. Solicite-a através de desenvolvimento@radiomemory.com.br.
@@ -24,7 +34,7 @@ Base64 da imagem.
 Nível de informação sobre a imagem que será retornado. Por hora, apenas o nível 1 está ativo. Em breve, outros níveis serão disponibilizados.
 
 ### Classificação nível 1
-Retona o tipo de imagem odontológica, entre os seguintes:
+Retorna o tipo de imagem odontológica, entre os seguintes:
 * Fotografia-Frontal
 * Fotografia-Perfil
 * Fotografia-Perfil-Esq
