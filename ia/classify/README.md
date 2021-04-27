@@ -23,10 +23,32 @@ Base64 da imagem.
 #### type
 Nível de informação sobre a imagem que será retornado. Por hora, apenas o nível 1 está ativo. Em breve, outros níveis serão disponibilizados.
 
-#### Classificação nível 1
+### Classificação nível 1
 Retona o tipo de imagem odontológica, entre os seguintes:
-##### panorâmica
-##### periapical
-##### foto frontal
-##### intraoral esquerda
-##### COMPLETAR!!!!
+#### Fotografia-Frontal
+#### Fotografia-Perfil
+#### Fotografia-Perfil-Esq
+#### Fotografia-Sorriso
+#### Sorriso-Zoom
+#### Impressao-Desenhos
+#### Impressao-Imgs
+#### Impressao-Relat
+#### Modelo-3D
+#### Modelo-3D-Color
+#### Modelo-Ana
+#### Oclusal-Inferior
+#### Oclusal-Superior
+#### Outros
+#### Pedidos-etc
+#### Intra-Oral-Direita
+#### Intra-Oral-Esquerda
+#### Intra-Oral-Frontal
+#### Carpal
+#### Frontal
+#### Interproximal
+#### Panoramica
+#### Periapical
+#### Telerradiografia
+
+#### Classificação nível 2 (em desenvolvimento!)
+Inclui também o subtipo da imagem, quando disponível: periapical [11-12-13], panorâmica [permanente, desdentado superior], etc. No momento, o nível 2 é apenas para radiografias panorâmicas e periapicais.
