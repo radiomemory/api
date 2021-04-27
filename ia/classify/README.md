@@ -51,4 +51,4 @@ Retona o tipo de imagem odontológica, entre os seguintes:
 #### Telerradiografia
 
 #### Classificação nível 2 (em desenvolvimento!)
-Inclui também o subtipo da imagem, quando disponível: periapical [11-12-13], panorâmica [permanente, desdentado superior], etc. No momento, o nível 2 é apenas para radiografias panorâmicas e periapicais.
+Incluirá também o subtipo da imagem, quando disponível: periapical [11-12-13], panorâmica [permanente, desdentado superior], etc. A princípio, apenas para radiografias panorâmicas e periapicais.
