@@ -1,3 +1,4 @@
+![Radio Memory](https://radiomemory.com.br/wp-content/uploads/2020/02/logo-site-com-borda.png)
 # radiomemory/api
 
 Há mais de 25 anos a Radio Memory contribui com o desenvolvimento da radiologia odontológica, aprimorando e organizando a produção e acesso a imagens, diagnósticos e tratamentos dentários.
