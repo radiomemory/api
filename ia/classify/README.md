@@ -1,4 +1,4 @@
-# RADIO MEMORY API
+# radiomemory/api
 
 ## Classificação de imagens(https://api.radiomemory.com.br/ia/classify)
 O serviço é capaz de reconhecer a grande maioria das imagens geradas durante um tratamento odontológico, sejam radiográficas ou fotográficas.
