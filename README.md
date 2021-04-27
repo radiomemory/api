@@ -21,28 +21,10 @@ Inclui apenas o tipo de imagem: panorâmica, periapical, foto frontal, intraoral
 Os serviços abaixo estão no pipeline de desenvolvimento e serão disponibilizados em breve.
 
 ### Integração com convênios
-Receba imagens de seus referenciados assim que a documentação for publicada. A classificação da imagem também é informada. Mais detalhes sobre o serviço aqui.
-
-#### Classificação nível 1
-#### Classificação nível 2
-
-### Classificação de imagens
-
-#### Classificação nível 2
-inclui também o subtipo da imagem, quando disponível: periapical [11-12-13], panorâmica [permanente, desdentado superior], etc. No momento, o nível 2 é apenas para radiografias panorâmicas e periapicais.
+Receba imagens de seus referenciados assim que a documentação for publicada. A classificação da imagem também é informada. Mais detalhes em breve.
 
 ### Cefbot
-Serviço para realização de análises cefalométricas. 3 tipos de chamadas diferentes permitem que o usuário integre da forma mais adequada para sua realidade. Mais detalhes sobre o serviço aqui.
-
-#### Coordenadas dos pontos
-#### Relatórios das análises
-#### Componente angular
+Serviço para realização de análises cefalométricas. 3 tipos de chamadas diferentes permitem que o usuário integre da forma mais adequada para sua realidade. Mais detalhes em breve.
 
 ### Identificação de dentes
 Reconhece com grande precisão dentes presentes e ausentes em radiografias panorâmicas. Mais detalhes sobre o serviço aqui.
-
-#### Classificação nível 1
-Informa os dentes presentes e ausentes. No momento, o nível 3 é apenas para radiografias panorâmicas.
-
-#### Classificação nível 2
-Também informa as coordenadas do longo eixo de cada dente encontrado.
