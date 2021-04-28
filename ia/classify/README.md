@@ -62,7 +62,7 @@ Retorna o tipo de imagem odontológica, entre os seguintes:
 
 ### Classificação nível 2
 Retorna informações mais detalhadas sobre alguns tipos de imagens (periapicais e panorâmicas):
-Periapicais
+####Periapicais
 * 18-17
 * 16-15-14
 * 46-45-44
@@ -77,6 +77,6 @@ Periapicais
 * 24-25-26
 * 34-35-36
 * 37-38
-Panorâmicas
+#### Panorâmicas
 * Dentição permanente ou mista
 * Desdentado superior, desdentado inferior ou desdentado total
