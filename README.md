@@ -20,7 +20,7 @@ Inclui apenas o tipo de imagem: panorâmica, periapical, foto frontal, intraoral
 ## Roadmap (serviços planejados)
 Os serviços abaixo estão no pipeline de desenvolvimento e serão disponibilizados em breve.
 
-### Integração com convênios
+### Integração com operadoras
 Receba imagens de seus referenciados assim que a documentação for publicada. A classificação da imagem também é informada. Mais detalhes em breve.
 
 ### Cefbot
