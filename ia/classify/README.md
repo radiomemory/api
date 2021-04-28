@@ -61,7 +61,7 @@ Retorna o tipo de imagem odontológica, entre os seguintes:
 * Telerradiografia
 
 ### Classificação nível 2
-Retorna informações mais detalhadas sobre alguns tipos de imagens (periapicais e panorâmicas):
+Retorna informações mais detalhadas sobre alguns tipos de imagens (periapicais e panorâmicas)
 ####Periapicais
 * 18-17
 * 16-15-14
