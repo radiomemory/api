@@ -29,4 +29,4 @@ Receba imagens de seus referenciados assim que a documentação for publicada. A
 Serviço para realização de análises cefalométricas. 3 tipos de chamadas diferentes permitem que o usuário integre da forma mais adequada para sua realidade. Mais detalhes em breve.
 
 ### Identificação de dentes
-Reconhece com grande precisão dentes presentes e ausentes em radiografias panorâmicas. Mais detalhes em breve.
+Reconhece com grande precisão dentes presentes e ausentes incluindo as coordenadas dos longos-eixos em radiografias panorâmicas. Mais detalhes em breve.
