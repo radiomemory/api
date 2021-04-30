@@ -1,7 +1,7 @@
 ![Radio Memory](https://radiomemory.com.br/wp-content/uploads/2020/02/logo-site-com-borda.png)
 # radiomemory/api
 
-## Classificação de imagens(https://api.radiomemory.com.br/ia/classify)
+## Classificação de imagens (https://api.radiomemory.com.br/ia/classify)
 O serviço é capaz de reconhecer a grande maioria das imagens geradas durante um tratamento odontológico, sejam radiográficas ou fotográficas.
 
 ### Acionando o serviço (veja a pasta examples para mais detalhes)
