@@ -22,7 +22,7 @@ Retorna informações mais detalhadas sobre alguns tipos de imagens (periapicais
 ## Roadmap (serviços planejados)
 Os serviços abaixo estão no pipeline de desenvolvimento e serão disponibilizados em breve.
 
-### Integração com operadoras de saúde
+### Integração com operadoras de saúde (https://api.radiomemory.com.br/service/subscribe)
 Receba imagens de seus referenciados assim que a documentação for publicada. A classificação da imagem também é informada. Mais detalhes em breve.
 
 ### Cefbot
