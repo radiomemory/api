@@ -13,14 +13,15 @@ A plataforma Radio Memory possui um recurso para acompanhamento de convênios. O
 A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.com.br/rcv_img) que recebe um objeto json:
 
 ```
+
 {
-  "key":[chave de autenticação],
-  "prot":[número de protocolo da chamada],
+  "jwt":[chave de autenticação],
   "usr":[usuário do referenciado],
   "pwd":[senha do referenciado],
   "guia":[número da guia de atendimento],
   "image": [base64 da imagem],
-  "classify": [informações de classificação da imagem]
+  "classify": [informações de classificação da imagem],
+  "reqid":[identificação da requisição]
 }
 ```
 
