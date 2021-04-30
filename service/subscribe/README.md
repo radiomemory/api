@@ -1,7 +1,7 @@
 ![Radio Memory](https://radiomemory.com.br/wp-content/uploads/2020/02/logo-site-com-borda.png)
 # radiomemory/api
 
-# EM CONSTRUÇÃO
+# EM CONSTRUÇÃO!
 
 ## Integração com operadoras de saúde (https://api.radiomemory.com.br/service/subscribe)
 Receba imagens de seus referenciados assim que a documentação for publicada. A classificação da imagem também é informada.
