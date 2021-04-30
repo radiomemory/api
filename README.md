@@ -11,7 +11,7 @@ Com objetivo de impactar positivamente ainda mais, estamos disponibilizando aces
 ## Catálogo (serviços disponíveis)
 
 ### Classificação de imagens (https://api.radiomemory.com.br/ia/classify)
-O serviço é capaz de reconhecer a grande maioria das imagens geradas durante um tratamento odontológico, sejam radiográficas ou fotográficas. Mais detalhes sobre o serviço [aqui](https://github.com/radiomemory/api/tree/main/ia/classify).
+O serviço é capaz de reconhecer a grande maioria das imagens geradas durante um tratamento odontológico, sejam radiográficas ou fotográficas. Mais detalhes [aqui](https://github.com/radiomemory/api/tree/main/ia/classify).
 
 #### Classificação nível 1
 Inclui apenas o tipo de imagem: panorâmica, periapical, foto frontal, intraoral esquerda, etc.
@@ -23,7 +23,7 @@ Retorna informações mais detalhadas sobre alguns tipos de imagens (periapicais
 Os serviços abaixo estão no pipeline de desenvolvimento e serão disponibilizados em breve.
 
 ### Integração com operadoras de saúde (https://api.radiomemory.com.br/service/subscribe)
-Receba imagens de seus referenciados assim que a documentação for publicada. A classificação da imagem também é informada. Mais detalhes em breve.
+Receba imagens de seus referenciados assim que a documentação for publicada. A classificação da imagem também é informada. Mais detalhes [aqui](https://github.com/radiomemory/api/tree/main/service/subscribe).
 
 ### Cefbot
 Serviço para realização de análises cefalométricas. 3 tipos de chamadas diferentes permitem que o usuário integre da forma mais adequada para sua realidade. Mais detalhes em breve.
