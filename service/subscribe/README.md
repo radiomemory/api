@@ -1,7 +1,7 @@
 ![Radio Memory](https://radiomemory.com.br/wp-content/uploads/2020/02/logo-site-com-borda.png)
 # radiomemory/api
 
->>> EM CONSTRUÇÃO <<<
+# EM CONSTRUÇÃO
 
 ## Integração com operadoras de saúde (https://api.radiomemory.com.br/service/subscribe)
 Receba imagens de seus referenciados assim que a documentação for publicada. A classificação da imagem também é informada.
@@ -15,6 +15,10 @@ A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.
 ```
 {
   "key":[chave de autenticação],
+  "prot":[número de protocolo da chamada],
+  "usr":[usuário do referenciado],
+  "pwd":[senha do referenciado],
+  "guia":[número da guia de atendimento],
   "image": [base64 da imagem],
   "classify": [informações de classificação da imagem]
 }
