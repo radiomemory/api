@@ -29,7 +29,7 @@ Este serviço também deverá retornar um json:
 
 ```
 {
-  "return":[codigo de retorno, 200 em geral],
+  "status":[codigo de retorno, 200 em geral],
   "error": [string de erro] #será apresentada na interface do usuário da integração
 }
 ```
@@ -45,7 +45,7 @@ A operadora irá chamar o serviço subscribe informando um objeto json:
 }
 ```
 
-Essa chamada será realizada uma única vez, para registrar o serviço. A operadora pode alterar a url chamando novamente o serviço.
+Essa chamada será realizada uma única vez, para registrar o serviço. A operadora pode alterar a url (ou o nível desejado de classificação) chamando novamente o serviço.
 
 ### Envios
 Assim que as imagens em questão são publicadas online, um item é incluído em uma fila de processamento. Um serviço consome esta fila, acionando o serviço registrado pela operadora, enviando a imagem e registrando o retorno, permitindo o acompanhamento do processo por parte do cliente/referenciado.
