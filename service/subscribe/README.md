@@ -59,4 +59,4 @@ Foi incluída uma implementação de referência na pasta examples.
 2. Faça o download do arquivo integracao_ref.js e inclua-o no projeto
 3. Execute: node integracao_ref.js
 
-Ao executar, o exemplo irá ativar o endpoint https://<SEU_IP>:3000/rcv_img e logo depois irá registrar este endpoint através de uma chamada ao subscribe. 5 segundos depois o endpoint será chamado. Se tudo funcionar corretamente, a mensagem "Comunicação estabelecida!" será apresentada diretamete no console local.
+Ao executar, o exemplo irá ativar o endpoint http://<SEU_IP>:3000/rcv_img e logo depois irá registrar este endpoint através de uma chamada ao subscribe. 5 segundos depois o endpoint será chamado. Se tudo funcionar corretamente, a mensagem "Comunicação estabelecida!" será apresentada diretamete no console local.
