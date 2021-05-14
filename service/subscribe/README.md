@@ -50,3 +50,13 @@ Essa chamada será realizada uma única vez, para registrar o serviço. A operad
 
 ### Envios
 Assim que as imagens em questão são publicadas online, um item é incluído em uma fila de processamento. Um serviço consome esta fila, acionando o serviço registrado pela operadora, enviando a imagem e registrando o retorno, permitindo o acompanhamento do processo por parte do cliente/referenciado.
+
+### Implementação de referência
+Foi incluída uma implementação de referência na pasta examples.
+
+0. É preciso um ambiente node.js configurado com express e jsonwebtoken
+1. Crie um projeto node: 
+2. Faça o download do arquivo integracao_ref.js e inclua-o no projeto
+3. Execute: node integracao_ref.js
+
+Ao executar, o exemplo irá ativar o endpoint https://<SEU_IP>/rcv_img e logo depois irá registrar este endpoint através de uma chamada ao subscribe. 5 segundos depois o endpoint será chamado. Se tudo funcionar corretamente, a mensagem "Comunicação estabelecida!" será apresentada diretamete no console local.
