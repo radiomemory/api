@@ -12,22 +12,21 @@ A plataforma Radio Memory possui um recurso para acompanhamento de convênios. O
 ### Criando o serviço local
 A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.com.br/rcv_img) que recebe um objeto json:
 
-```
-
+```json
 {
-  "jwt":[chave de autenticação],
-  "login":[usuário do referenciado],
-  "pwd":[senha do referenciado],
-  "guia":[número da guia de atendimento],
-  "image": [base64 da imagem],
-  "classify": [informações de classificação da imagem],
-  "requestId":[identificação da requisição]
+  "jwt": "chave de autenticação",
+  "login": "usuário do referenciado",
+  "pwd": "senha do referenciado",
+  "guia": "número da guia de atendimento",
+  "image": "base64 da imagem",
+  "classify": "informações de classificação da imagem",
+  "requestId": "identificação da requisição"
 }
 ```
 
 Este serviço também deverá retornar um json:
 
-```
+```json
 {
   "status":[codigo de retorno, 200 em geral],
   "error": [string de erro] #será apresentada na interface do usuário da integração
@@ -37,12 +36,12 @@ Este serviço também deverá retornar um json:
 ### Registrando o serviço
 A operadora irá chamar o serviço subscribe informando um objeto json:
 
-```
+```json
 {
-  "key": [chave de autenticação],
+  "key": "chave de autenticação",
   "url": "https://operadora.com.br/rcv_img",
-  "port": 10
-  "type": [o nível desejado de classificação, 1 ou 2]
+  "port": 10,
+  "type": "o nível desejado de classificação, 1 ou 2"
 }
 ```
 
