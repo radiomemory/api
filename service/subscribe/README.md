@@ -60,9 +60,9 @@ Foi incluída uma implementação de referência na pasta examples.
 3. Execute: node integracao_ref.js
 
 Ao executar, o exemplo irá:
-* ativar o endpoint http://<SEU_IP>:3000/rcv_img (o serviço deve estar exposto para acesso externo)
-* registrar este endpoint através de uma chamada ao subscribe
-* 5 segundos depois o endpoint será chamado com o seguinte:
+* Ativar o endpoint http://<SEU_IP>:3000/rcv_img (o serviço deve estar exposto para acesso externo)
+* Registrar este endpoint através de uma chamada ao subscribe
+* Imediatamente o endpoint será chamado com o seguinte:
 
 ```json
 {
@@ -76,4 +76,4 @@ Ao executar, o exemplo irá:
 }
 ```
 
-* se tudo funcionar corretamente, a mensagem "Comunicação estabelecida!" será apresentada diretamete no console local
+* Se tudo funcionar corretamente, a mensagem "Comunicação estabelecida!" será apresentada diretamete no console local
