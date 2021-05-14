@@ -28,8 +28,8 @@ Este serviço também deverá retornar um json:
 
 ```json
 {
-  "status":[codigo de retorno, 200 em geral],
-  "error": [string de erro] #será apresentada na interface do usuário da integração
+  "status": "código de retorno, 200 em geral",
+  "error": "string de erro, será apresentada na interface do usuário da integração"
 }
 ```
 
