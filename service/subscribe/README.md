@@ -54,10 +54,14 @@ Assim que as imagens em questão são publicadas online, um item é incluído em
 ### Implementação de referência
 Foi incluída uma implementação de referência na pasta examples.
 
-0. É preciso um ambiente node.js configurado com express e jsonwebtoken
-1. Crie um projeto node: 
-2. Faça o download do arquivo integracao_ref.js e inclua-o no projeto
-3. Execute: node integracao_ref.js
+0. É preciso um ambiente Node.js funcionando
+1. Crie um projeto node integracao_ref
+2. Faça o download dos arquivo integracao_ref.js e integracao_ref.package e inclua-os no projeto
+3. Execute
+```bash
+npm install
+node integracao_ref.js
+```
 
 Ao executar, o exemplo irá:
 * Ativar o endpoint http://<SEU_IP>:3000/rcv_img (o serviço deve estar exposto para acesso externo)
