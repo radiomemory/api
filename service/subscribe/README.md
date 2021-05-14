@@ -16,12 +16,12 @@ A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.
 
 {
   "jwt":[chave de autenticação],
-  "usr":[usuário do referenciado],
+  "login":[usuário do referenciado],
   "pwd":[senha do referenciado],
   "guia":[número da guia de atendimento],
   "image": [base64 da imagem],
   "classify": [informações de classificação da imagem],
-  "reqid":[identificação da requisição]
+  "requestId":[identificação da requisição]
 }
 ```
 
@@ -40,8 +40,9 @@ A operadora irá chamar o serviço subscribe informando um objeto json:
 ```
 {
   "key": [chave de autenticação],
-  "url": "https://operadora.com.br/rcv_img" ,
-  "type": [o nível desejado de classificação]
+  "url": "https://operadora.com.br/rcv_img",
+  "port": 10
+  "type": [o nível desejado de classificação, 1 ou 2]
 }
 ```
 
