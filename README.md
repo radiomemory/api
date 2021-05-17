@@ -19,11 +19,11 @@ Inclui apenas o tipo de imagem: panorâmica, periapical, foto frontal, intraoral
 #### Classificação nível 2
 Retorna informações mais detalhadas sobre alguns tipos de imagens (periapicais e panorâmicas).
 
-## Roadmap (serviços planejados)
-Os serviços abaixo estão no pipeline de desenvolvimento e serão disponibilizados em breve.
-
 ### Integração com operadoras de saúde (https://api.radiomemory.com.br/service/subscribe)
 Receba imagens de seus referenciados assim que a documentação for publicada. A classificação da imagem também é informada. Mais detalhes [aqui](https://github.com/radiomemory/api/tree/main/service/subscribe).
+
+## Roadmap (serviços planejados)
+Os serviços abaixo estão no pipeline de desenvolvimento e serão disponibilizados em breve.
 
 ### Cefbot
 Serviço para realização de análises cefalométricas. 3 tipos de chamadas diferentes permitem que o usuário integre da forma mais adequada para sua realidade. Mais detalhes em breve.
