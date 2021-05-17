@@ -46,7 +46,7 @@ let rcv_img = (req,res)=>{
             // }
             if(body?.teste){
                fs.writeFileSync('./img.jpg',body.image, 'base64')
-               console.log('Comunicação estabelecida!')
+               console.log('Imagem recebida!')
             }
             let responseData = {
                 status: 200,
