@@ -63,18 +63,5 @@ node integracao_ref.js
 Ao executar, o exemplo irá:
 * Ativar o endpoint http://<SEU_IP>:3000/rcv_img (o serviço deve estar exposto para acesso externo)
 * Registrar este endpoint através de uma chamada ao subscribe
-* Imediatamente o endpoint será chamado com o seguinte:
-
-```json
-{
-  "jwt": "chave de autenticação",
-  "login": "rm",
-  "pwd": "rm",
-  "guia": 0,
-  "image": "base64 da imagem",
-  "classify": "informações de classificação da imagem",
-  "requestId": "identificação da requisição"
-}
-```
-
-* Se tudo funcionar corretamente, a mensagem "Comunicação estabelecida!" será apresentada diretamete no console local
+* Imediatamente o endpoint será chamado com o parâmetro "teste" (veja o exemplo)
+* Se tudo funcionar corretamente, as mensagens "Comunicação estabelecida!" e "Imagem recebida!" serão apresentadas diretamete no console local
