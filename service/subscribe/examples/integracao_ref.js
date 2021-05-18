@@ -58,5 +58,5 @@ let rcv_img = (req,res)=>{
 
 }
 
-app.post('/rcv_img', receiveImage);
+app.post('/rcv_img', rcv_img);
 app.listen(3000)
