@@ -1,7 +1,7 @@
 ![Radio Memory](https://radiomemory.com.br/wp-content/uploads/2020/02/logo-site-com-borda.png)
 # radiomemory/api
 
-## Descrição de imagens (https://api.radiomemory.com.br/ia/classify)
+## Descrição de imagens (https://api.radiomemory.com.br/ia/describe)
 O serviço é capaz de descrever imagens geradas durante um tratamento odontológico. Atualmente está focado em imagens panorâmicas:
 
 ### Acionando o serviço (veja a pasta examples para mais detalhes)
