@@ -25,6 +25,15 @@ Receba imagens de seus referenciados assim que a documentação for publicada. A
 ## Roadmap (serviços planejados)
 Os serviços abaixo estão no pipeline de desenvolvimento e serão disponibilizados em breve.
 
+### Descrição de imagens
+O serviço é capaz de descrever imagens geradas durante um tratamento odontológico. Mais detalhes [aqui](https://github.com/radiomemory/api/tree/main/ia/describe).
+
+#### Descrição nível 1
+Retorna o tipo de dentição dentre mista/permanente e desdentado superior, inferior ou total.
+
+#### Descrição nível 2
+Retorna a lista de dentes presentes e ausentes, incluindo as coordenadas do longo eixo.
+
 ### Cefbot
 Serviço para realização de análises cefalométricas. 3 tipos de chamadas diferentes permitem que o usuário integre da forma mais adequada para sua realidade. Mais detalhes em breve.
 
