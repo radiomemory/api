@@ -82,6 +82,3 @@ Retorna informações mais detalhadas sobre alguns tipos de imagens (periapicais
 * RPD - Região Pré-Molar Direito - 15/14/45/44
 * RME - Região Molar Esquerdo - 28/27/26/38/37/36
 * RPE - Região Pré-Molar Esquerdo - 25/24/35/34
-#### Panorâmicas
-* Dentição permanente ou mista
-* Desdentado superior, desdentado inferior ou desdentado total
