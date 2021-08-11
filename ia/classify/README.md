@@ -65,25 +65,29 @@ OTR|Outros
 LEVRAD|Levantamento Radiográfico
 CEF|Análise Cefalométrica
 
-### Classificação nível 2
+### Classificação nível 2 (atributo subclass)
 Retorna informações mais detalhadas sobre alguns tipos de imagens (periapicais e interproximais):
 #### Periapicais
-* RMSD - Região Molar Superior Direito - 18/17/16
-* RPSD - Região Pré-Molar Superior Direito - 14/15
-* RPID - Região Pré-Molar Inferior Direito - 45/44
-* RMID - Região Molar Inferior Direito - 48/47/46
-* RCSD - Região Canino Superior Direito - 13
-* RCID - Região Canino Inferior Direito - 43
-* RIS - Região Incisivo Superior - 12/11/21/22
-* RII - Região Incisivo Inferior - 42/41/32/31
-* RCSE - Região Canino Superior Esquerdo - 23
-* RCIE - Região Canino Inferior Esquerdo - 33
-* RMSE - Região Molar Superior Esquerdo - 26/27/28
-* RPSE - Região Pré-Molar Superior Esquerdo - 24/25
-* RPIE - Região Pré-Molar Inferior Esquerdo - 34/35
-* RMIE - Região Molar Inferior Esquerdo - 36/37/38
+initials|name|defaultNumbers
+---|---|---
+RMSD|Região Molar Superior Direito|18/17/16
+RPSD|Região Pré-Molar Superior Direito|14/15
+RPID|Região Pré-Molar Inferior Direito|45/44
+RMID|Região Molar Inferior Direito|48/47/46
+RCSD|Região Canino Superior Direito|13
+RCID|Região Canino Inferior Direito|43
+RIS|Região Incisivo Superior|12/11/21/22
+RII|Região Incisivo Inferior|42/41/32/31
+RCSE|Região Canino Superior Esquerdo|23
+RCIE|Região Canino Inferior Esquerdo|33
+RMSE|Região Molar Superior Esquerdo|26/27/28
+RPSE|Região Pré-Molar Superior Esquerdo|24/25
+RPIE|Região Pré-Molar Inferior Esquerdo|34/35
+RMIE|Região Molar Inferior Esquerdo|36/37/388
 #### Interproximais
-* RMD - Região Molar Direito - 18/17/16/48/47/46
-* RPD - Região Pré-Molar Direito - 15/14/45/44
-* RME - Região Molar Esquerdo - 28/27/26/38/37/36
-* RPE - Região Pré-Molar Esquerdo - 25/24/35/34
+initials|name|defaultNumbers
+---|---|---
+RMD|Região Molar Direito|18/17/16/48/47/46
+RPD|Região Pré-Molar Direito|15/14/45/44
+RME|Região Molar Esquerdo|28/27/26/38/37/36
+RPE|Região Pré-Molar Esquerdo|25/24/35/34
