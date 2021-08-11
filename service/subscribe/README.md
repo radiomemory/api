@@ -13,8 +13,8 @@ A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.
 ```json
 {
   "jwt": "chave de autenticação",
-  "login": "usuário do referenciado",
-  "pwd": "senha do referenciado",
+  "login": "usuário do credenciado",
+  "pwd": "senha do credenciado",
   "guia": "número da guia de atendimento",
   "image": "base64 da imagem",
   "class": {
@@ -55,7 +55,7 @@ A operadora irá chamar o serviço subscribe informando um objeto json:
 Essa chamada será realizada uma única vez, para registrar o serviço. A operadora pode alterar a url (ou o nível desejado de classificação) chamando novamente o serviço.
 
 ### Envios
-Assim que as imagens em questão são publicadas online, um item é incluído em uma fila de processamento. Um serviço consome esta fila, acionando o serviço registrado pela operadora, enviando a imagem e registrando o retorno, permitindo o acompanhamento do processo por parte do cliente/referenciado.
+Assim que as imagens em questão são publicadas online, um item é incluído em uma fila de processamento. Um serviço consome esta fila, acionando o serviço registrado pela operadora, enviando a imagem e registrando o retorno, permitindo o acompanhamento do processo por parte do cliente/credenciado.
 
 ### Implementação de referência
 Foi incluída uma implementação de referência na pasta examples.
