@@ -2,13 +2,13 @@
 # radiomemory/api
 
 ## Integração com operadoras de saúde (https://api.radiomemory.com.br/service/subscribe)
-Receba imagens de seus referenciados assim que a documentação for publicada. A classificação da imagem também é informada.
+Receba imagens de seus credenciados assim que a documentação for publicada. A classificação da imagem também é informada.
 
 ### O que é?
-A plataforma Radio Memory possui um recurso para acompanhamento de convênios. O cliente/referenciado pode determinar imagens e exames que serão encaminhadas diretamente à operadora assim que a documentação for publicada.
+A plataforma Radio Memory possui um recurso para acompanhamento de convênios. O cliente/credenciado pode encaminhar imagens e exames diretamente à operadora assim que a documentação for publicada.
 
 ### Criando o serviço local
-A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.com.br/rcv_img) que recebe um objeto json:
+A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.com.br/rcv_img) que irá receber um objeto json no seguinte formato:
 
 ```json
 {
@@ -17,18 +17,19 @@ A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.
   "pwd": "senha do referenciado",
   "guia": "número da guia de atendimento",
   "image": "base64 da imagem",
-	"class": {
-		"initials": "PERI",
-		"name": "Periapical"
-	},
-	"subclass": {
-		"initials": "RCID",
-		"name": "Região Canino Inferior Direito",
-		"defaultNumbers": [43]
-	}
+  "class": {
+    "initials": "PERI",
+    "name": "Periapical"
+  },
+  "subclass": {
+    "initials": "RCID",
+    "name": "Região Canino Inferior Direito",
+    "defaultNumbers": [43]
+  }
   "requestId": "identificação da requisição"
 }
 ```
+Veja aqui os possíveis valores de retorno de classificação (atributos class e subclass).
 
 Este serviço também deverá retornar um json:
 
