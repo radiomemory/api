@@ -29,7 +29,7 @@ A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.
   "requestId": "identificação da requisição"
 }
 ```
-Veja [aqui]() os possíveis valores de retorno de classificação (atributos class e subclass).
+Veja [aqui](https://github.com/radiomemory/api/tree/main/ia/classify) os possíveis valores de retorno de classificação (atributos class e subclass).
 
 Este serviço também deverá retornar um json:
 
