@@ -33,32 +33,36 @@ Base64 da imagem.
 #### type
 Nível de informação sobre a imagem que será retornado. Por hora, apenas o nível 1 está ativo. Em breve, outros níveis serão disponibilizados.
 
-### Classificação nível 1
+### Classificação nível 1 (atributo class)
 Retorna o tipo de imagem odontológica, entre os seguintes:
-* Fotografia-Frontal
-* Fotografia-Perfil
-* Fotografia-Perfil-Esq
-* Fotografia-Sorriso
-* Sorriso-Zoom
-* Impressao-Desenhos
-* Impressao-Imgs
-* Impressao-Relat
-* Modelo-3D
-* Modelo-3D-Color
-* Modelo-Ana
-* Oclusal-Inferior
-* Oclusal-Superior
-* Outros
-* Pedidos-etc
-* Intra-Oral-Direita
-* Intra-Oral-Esquerda
-* Intra-Oral-Frontal
-* Carpal
-* Frontal
-* Interproximal
-* Panoramica
-* Periapical
-* Telerradiografia
+initials|name
+PANO|Panorâmica
+PERI|Periapical
+FFRON|Fotografia Frontal
+FPER|Fotografia Perfil
+FPERE|Fotografia Prfil Esquerda
+FSOR|Fotografia Sorriso
+SORZ|Sorriso Zoom
+IMPD|Impressão Desenhos
+IMPI|Impressão Imagens
+IMPR|Impressão Relatórios
+MOD3D|Modelo 3D
+MOD|Modelo
+MOD3DC|Modelo 3D Colorido
+MODANA|Modelo Anatômico
+OINF|Oclusal Inferior
+OSUP|Oclusal Superior
+IOD|Intra Oral Direita
+IOE|Intra Oral Esquerda
+IOF|Intra Oral Frontal
+CARP|Carpal
+FRON|Frontal
+BW|Interproximal
+TELE|Telerradiografia
+PEDETC|Pedidos, etc
+OTR|Outros
+LEVRAD|Levantamento Radiográfico
+CEF|Análise Cefalométrica
 
 ### Classificação nível 2
 Retorna informações mais detalhadas sobre alguns tipos de imagens (periapicais e interproximais):
