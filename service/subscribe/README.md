@@ -17,7 +17,15 @@ A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.
   "pwd": "senha do referenciado",
   "guia": "número da guia de atendimento",
   "image": "base64 da imagem",
-  "classify": "informações de classificação da imagem",
+	"class": {
+		"initials": "PERI",
+		"name": "Periapical"
+	},
+	"subclass": {
+		"initials": "RCID",
+		"name": "Região Canino Inferior Direito",
+		"defaultNumbers": [43]
+	}
   "requestId": "identificação da requisição"
 }
 ```
