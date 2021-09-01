@@ -35,7 +35,6 @@ Nível de informação sobre a imagem que será retornado. Por hora, apenas o n�
 
 ### Classificação nível 1 (atributo class)
 Retorna o tipo de imagem odontológica, entre os seguintes:
-
 initials|name
 ---|---
 PANO|Panorâmica
