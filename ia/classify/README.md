@@ -36,15 +36,11 @@ Nível de informação sobre a imagem que será retornado. Por hora, apenas o n�
 ### Classificação nível 1 (atributo class)
 Retorna o tipo de imagem odontológica, entre os seguintes:
 
-initials|name
+initials|name|nível 2?
 ---|---
 PANO|Panorâmica
-PERI|Periapical
-FFRON|Fotografia Frontal
-FPER|Fotografia Perfil
-FPERE|Fotografia Prfil Esquerda
-FSOR|Fotografia Sorriso
-SORZ|Sorriso Zoom
+PERI|Periapical|sim
+FEO|Fotografia Extraoral|sim
 IMPD|Impressão Desenhos
 IMPI|Impressão Imagens
 IMPR|Impressão Relatórios
@@ -52,14 +48,12 @@ MOD3D|Modelo 3D
 MOD|Modelo
 MOD3DC|Modelo 3D Colorido
 MODANA|Modelo Anatômico
-OINF|Oclusal Inferior
-OSUP|Oclusal Superior
-IOD|Intra Oral Direita
-IOE|Intra Oral Esquerda
-IOF|Intra Oral Frontal
+FO|Fotografia Oclusal|sim
+FIO|Fotografia Intraoral|sim
 CARP|Carpal
 FRON|Frontal
-BW|Interproximal
+BW|Interproximal|sim
+RXO|Oclusal|sim
 TELE|Telerradiografia
 PEDETC|Pedidos, etc
 OTR|Outros
@@ -92,3 +86,27 @@ RMD|Região Molar Direito|18/17/16/48/47/46
 RPD|Região Pré-Molar Direito|15/14/45/44
 RME|Região Molar Esquerdo|28/27/26/38/37/36
 RPE|Região Pré-Molar Esquerdo|25/24/35/34
+#### Radiografias oclusais
+initials|name|defaultNumbers
+---|---|---
+SUP|Região Oclusal Superior|18/17/16/15/14/13/12/11/21/22/23/24/25/26/27/28
+INF|Região Oclusal Inferior|48/47/46/45/44/43/42/41/31/32/33/34/35/36/37/38
+#### Extraorais
+initials|name|defaultNumbers
+---|---|---
+FFRON|Fotografia Frontal
+FSOR|Fotografia Sorriso
+FPER|Fotografia Perfil
+FPERE|Fotografia Perfil Esquerda
+SORZ|Fotografia Sorriso Zoom
+#### Intraorais
+initials|name|defaultNumbers
+---|---|---
+IOD|Intra Oral Direita
+IOE|Intra Oral Esquerda
+IOF|Intra Oral Frontal
+#### Fotografias oclusais
+initials|name|defaultNumbers
+---|---|---
+OSUP|Oclusal superior
+OINF|Oclusal Inferior
