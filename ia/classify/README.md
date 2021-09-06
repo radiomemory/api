@@ -38,27 +38,28 @@ Retorna o tipo de imagem odontológica, entre os seguintes:
 
 initials|name|nível 2
 ---|---
-PANO|Panorâmica|-
+PANO|Panorâmica|não
 PERI|Periapical|sim
 FEO|Fotografia Extraoral|sim
-IMPD|Impressão Desenhos|-
-IMPI|Impressão Imagens|-
-IMPR|Impressão Relatórios|-
-MOD3D|Modelo 3D|-
-MOD|Modelo|-
-MOD3DC|Modelo 3D Colorido|-
-MODANA|Modelo Anatômico|-
+IMPD|Impressão Desenhos|não
+IMPD|Impressão Desenhos|não
+IMPI|Impressão Imagens|não
+IMPR|Impressão Relatórios|não
+MOD3D|Modelo 3D|não
+MOD|Modelo|não
+MOD3DC|Modelo 3D Colorido|não
+MODANA|Modelo Anatômico|não
 FO|Fotografia Oclusal|sim
 FIO|Fotografia Intraoral|sim
-CARP|Carpal|-
-FRON|Frontal|-
+CARP|Carpal|não
+FRON|Frontal|não
 BW|Interproximal|sim
 RXO|Oclusal|sim
-TELE|Telerradiografia|-
-PEDETC|Pedidos, etc|-
-OTR|Outros|-
-LEVRAD|Levantamento Radiográfico|-
-CEF|Análise Cefalométrica|-
+TELE|Telerradiografia|não
+PEDETC|Pedidos, etc|não
+OTR|Outros|não
+LEVRAD|Levantamento Radiográfico|não
+CEF|Análise Cefalométrica|não
 
 ### Classificação nível 2 (atributo subclass)
 Retorna informações mais detalhadas sobre alguns tipos de imagens (periapicais e interproximais):
