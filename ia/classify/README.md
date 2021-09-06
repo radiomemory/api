@@ -63,7 +63,7 @@ CEF|Análise Cefalométrica
 
 ### Classificação nível 2 (atributo subclass)
 Retorna informações mais detalhadas sobre alguns tipos de imagens (periapicais e interproximais):
-#### Periapicais
+####Periapicais
 initials|name|defaultNumbers
 ---|---|---
 RMSD|Região Molar Superior Direito|18/17/16
