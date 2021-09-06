@@ -42,24 +42,24 @@ PANO|Panorâmica
 PERI|Periapical|sim
 FEO|Fotografia Extraoral|sim
 IMPD|Impressão Desenhos
-IMPD|Impressão Desenhos|não
-IMPI|Impressão Imagens|não
-IMPR|Impressão Relatórios|não
-MOD3D|Modelo 3D|não
-MOD|Modelo|não
-MOD3DC|Modelo 3D Colorido|não
-MODANA|Modelo Anatômico|não
+IMPD|Impressão Desenhos
+IMPI|Impressão Imagens
+IMPR|Impressão Relatórios
+MOD3D|Modelo 3D
+MOD|Modelo
+MOD3DC|Modelo 3D Colorido
+MODANA|Modelo Anatômico
 FO|Fotografia Oclusal|sim
 FIO|Fotografia Intraoral|sim
-CARP|Carpal|não
-FRON|Frontal|não
+CARP|Carpal
+FRON|Frontal
 BW|Interproximal|sim
 RXO|Oclusal|sim
-TELE|Telerradiografia|não
-PEDETC|Pedidos, etc|não
-OTR|Outros|não
-LEVRAD|Levantamento Radiográfico|não
-CEF|Análise Cefalométrica|não
+TELE|Telerradiografia
+PEDETC|Pedidos, etc
+OTR|Outros
+LEVRAD|Levantamento Radiográfico
+CEF|Análise Cefalométrica
 
 ### Classificação nível 2 (atributo subclass)
 Retorna informações mais detalhadas sobre alguns tipos de imagens (periapicais e interproximais):
