@@ -93,7 +93,7 @@ initials|name|defaultNumbers
 SUP|Região Oclusal Superior|18/17/16/15/14/13/12/11/21/22/23/24/25/26/27/28
 INF|Região Oclusal Inferior|48/47/46/45/44/43/42/41/31/32/33/34/35/36/37/38
 #### Extraorais
-initials|name|defaultNumbers
+initials|name
 ---|---
 FFRON|Fotografia Frontal
 FSOR|Fotografia Sorriso
@@ -101,13 +101,13 @@ FPER|Fotografia Perfil
 FPERE|Fotografia Perfil Esquerda
 SORZ|Fotografia Sorriso Zoom
 #### Intraorais
-initials|name|defaultNumbers
+initials|name
 ---|---
 IOD|Intra Oral Direita
 IOE|Intra Oral Esquerda
 IOF|Intra Oral Frontal
 #### Fotografias oclusais
-initials|name|defaultNumbers
+initials|name
 ---|---
 OSUP|Oclusal superior
 OINF|Oclusal Inferior
