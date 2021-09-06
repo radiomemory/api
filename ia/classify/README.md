@@ -39,7 +39,7 @@ Retorna o tipo de imagem odontológica, entre os seguintes:
 initials|name|nível 2?
 ---|---|---
 PANO|Panorâmica
-PERI|Periapical|sim
+PERI|Periapical|[sim](#### periapicais)
 FEO|Fotografia Extraoral|sim
 IMPD|Impressão Desenhos
 IMPD|Impressão Desenhos
