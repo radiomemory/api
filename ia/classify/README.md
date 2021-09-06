@@ -40,7 +40,7 @@ initials|name|nível 2?
 ---|---|---
 PANO|Panorâmica
 PERI|Periapical|[sim](#periapicais)
-FEO|Fotografia Extraoral|sim
+FEO|Fotografia Extraoral|[sim](#extraorais)
 IMPD|Impressão Desenhos
 IMPD|Impressão Desenhos
 IMPI|Impressão Imagens
@@ -49,12 +49,12 @@ MOD3D|Modelo 3D
 MOD|Modelo
 MOD3DC|Modelo 3D Colorido
 MODANA|Modelo Anatômico
-FO|Fotografia Oclusal|sim
-FIO|Fotografia Intraoral|sim
+FO|Fotografia Oclusal|[sim](#fotografias-oclusais)
+FIO|Fotografia Intraoral|[sim](#intraorais)
 CARP|Carpal
 FRON|Frontal
-BW|Interproximal|sim
-RXO|Oclusal|sim
+BW|Interproximal|[sim](#interproximais)
+RXO|Oclusal|[sim](#radiografias-oclusais)
 TELE|Telerradiografia
 PEDETC|Pedidos, etc
 OTR|Outros
