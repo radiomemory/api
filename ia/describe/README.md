@@ -2,7 +2,7 @@
 # radiomemory/api
 
 ## Descrição de imagens (https://api.radiomemory.com.br/ia/describe)
-O serviço é capaz de descrever imagens geradas durante um tratamento odontológico e reconhece com grande precisão dentes presentes e ausentes incluindo as coordenadas dos longos-eixos em radiografias panorâmicas. Atualmente está focado em imagens panorâmicas.
+O serviço é capaz de descrever imagens geradas durante um tratamento odontológico e reconhecer com grande precisão dentes presentes e ausentes incluindo as coordenadas dos longos-eixos em radiografias panorâmicas. Atualmente está focado em imagens panorâmicas.
 
 ### Acionando o serviço (veja a pasta examples para mais detalhes)
 
