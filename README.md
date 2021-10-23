@@ -21,6 +21,3 @@ O serviço é capaz de descrever imagens geradas durante um tratamento odontoló
 
 ### Cefbot (https://api.radiomemory.com.br/ia/cefbot)
 Serviço para realização de análises cefalométricas. 3 tipos de chamadas diferentes permitem que o usuário integre da forma mais adequada para sua realidade. Mais detalhes em breve.
-
-## Roadmap (serviços planejados)
-Os serviços abaixo estão no pipeline de desenvolvimento e serão disponibilizados em breve.
