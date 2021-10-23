@@ -14,8 +14,7 @@ Chave de autenticação que permite o acesso ao serviço. Solicite-a através de
 #### image
 Base64 da imagem.
 #### type
-Nível de informação sobre a imagem que será retornado. Por hora, apenas o nível 1 está ativo. Em breve, outros níveis serão disponibilizados.
-???
+Nível de informação sobre a imagem que será retornado.
 
 ### Panorâmicas
 
