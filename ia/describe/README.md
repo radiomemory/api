@@ -26,3 +26,9 @@ Retorna o tipo de dentição dentre as classes abaixo:
 
 #### Descrição nível 2
 Retorna a lista de dentes presentes e ausentes, incluindo as coordenadas do longo eixo.
+
+#### Descrição nível 3
+Retorna a lista de procedimentos presentes, incluindo as coordenadas.
+
+#### Descrição nível 4
+Retorna a lista de anomalias presentes, incluindo as coordenadas.
