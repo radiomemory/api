@@ -17,7 +17,7 @@ Receba imagens de seus referenciados assim que a documentação for publicada. A
 O serviço é capaz de reconhecer a grande maioria das imagens geradas durante um tratamento odontológico, sejam radiográficas ou fotográficas. Mais detalhes [aqui](https://github.com/radiomemory/api/tree/main/ia/classify).
 
 ### Descrição de imagens (https://api.radiomemory.com.br/ia/describe)
-O serviço é capaz de descrever imagens geradas durante um tratamento odontológico e reconhecer com grande precisão dentes, procediementos e anoomalias presentes, incluindo as coordenadas dos longos-eixos em radiografias panorâmicas. Mais detalhes [aqui](https://github.com/radiomemory/api/tree/main/ia/describe).
+O serviço é capaz de descrever imagens geradas durante um tratamento odontológico e reconhecer com grande precisão dentes, procedimentos e anomalias presentes, incluindo as coordenadas dos longos-eixos em radiografias panorâmicas. Mais detalhes [aqui](https://github.com/radiomemory/api/tree/main/ia/describe).
 
 ### Cefbot (https://api.radiomemory.com.br/ia/cefbot)
 Serviço para realização de análises cefalométricas. 3 tipos de chamadas diferentes permitem que o usuário integre da forma mais adequada para sua realidade. Mais detalhes em breve.
