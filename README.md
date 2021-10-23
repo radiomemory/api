@@ -19,12 +19,6 @@ O serviço é capaz de reconhecer a grande maioria das imagens geradas durante u
 ### Descrição de imagens (https://api.radiomemory.com.br/ia/describe)
 O serviço é capaz de descrever imagens geradas durante um tratamento odontológico e reconhece com grande precisão dentes presentes e ausentes incluindo as coordenadas dos longos-eixos em radiografias panorâmicas. Mais detalhes [aqui](https://github.com/radiomemory/api/tree/main/ia/describe).
 
-#### Descrição nível 1
-Retorna o tipo de dentição dentre mista/permanente e desdentado superior, inferior ou total.
-
-#### Descrição nível 2
-Retorna a lista de dentes presentes e ausentes, incluindo as coordenadas do longo eixo.
-
 ### Cefbot (https://api.radiomemory.com.br/ia/cefbot)
 Serviço para realização de análises cefalométricas. 3 tipos de chamadas diferentes permitem que o usuário integre da forma mais adequada para sua realidade. Mais detalhes em breve.
 
