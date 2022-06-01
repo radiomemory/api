@@ -10,11 +10,9 @@ Receba imagens de seus credenciados assim que a documentação for publicada. A 
 A plataforma Radio Memory possui um recurso para acompanhamento de convênios. O cliente/credenciado pode encaminhar imagens e exames diretamente à operadora assim que a documentação for publicada.
 
 ### Criando o serviço local
-A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.com.br/rcv_img) que irá receber um objeto json no seguinte formato:
-
 A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.com.br/rcv_img) que irá receber uma requisição POST com o  objeto JSON no seguinte formato:
 
-```json
+### Request
 POST https://URL/rcv_img
 content-type: application/json
 authorization: Bearer "KEY"
@@ -36,7 +34,7 @@ authorization: Bearer "KEY"
   }
   "requestId": "identificação da requisição"
 }
-```
+
 O exemplo acima explicíta a classificação de uma periapical do canino inferior diretiro. **Veja [aqui](https://github.com/radiomemory/api/tree/main/ia/classify) os possíveis valores de retorno (atributos class e subclass).**
 
 Este serviço também deverá retornar um json:
