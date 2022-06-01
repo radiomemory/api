@@ -12,7 +12,7 @@ A plataforma Radio Memory possui um recurso para acompanhamento de convênios. O
 ### Criando o serviço local
 A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.com.br/rcv_img) que irá receber uma requisição POST com o  objeto JSON no seguinte formato:
 
-```request
+```
 POST https://URL/rcv_img
 content-type: application/json
 authorization: Bearer "KEY"
