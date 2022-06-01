@@ -4,8 +4,6 @@
 ## Integração com operadoras de saúde (https://api.radiomemory.com.br/service/subscribe)
 Receba imagens de seus credenciados assim que a documentação for publicada. A classificação da imagem também é informada.
 
-
-
 ### O que é?
 A plataforma Radio Memory possui um recurso para acompanhamento de convênios. O cliente/credenciado pode encaminhar imagens e exames diretamente à operadora assim que a documentação for publicada.
 
@@ -119,3 +117,5 @@ Ao executar, o exemplo irá:
 * Registrar este endpoint através de uma chamada ao subscribe
 * Imediatamente o endpoint será chamado com o parâmetro "teste" (veja o exemplo)
 * Se tudo funcionar corretamente, as mensagens "Comunicação estabelecida!" e "Imagem recebida!" serão apresentadas diretamete no console local
+
+Você pode acessar [aqui](https://cdnrm.radiomemory.com.br/swagger/operadoras.html) o exemplo no Swagger.
