@@ -105,7 +105,7 @@ Foi incluída uma implementação de referência na pasta examples.
 
 0. É preciso um ambiente Node.js funcionando
 1. Crie um projeto node integracao_ref
-2. Faça o download dos arquivo integracao_ref.js e integracao_ref.package e inclua-os no projeto
+2. Faça o download dos arquivo integracao_ref.js e package.json e inclua-os no projeto
 3. Execute
 ```bash
 npm install
