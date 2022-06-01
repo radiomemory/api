@@ -36,7 +36,7 @@ authorization: Bearer "KEY"
 }
 ```
 
-O exemplo acima explicíta a classificação de uma periapical do canino inferior diretiro. **Veja [aqui](https://github.com/radiomemory/api/tree/main/ia/classify) os possíveis valores de retorno (atributos class e subclass).**
+O exemplo acima explicíta a classificação de uma periapical do canino inferior direito. **Veja [aqui](https://github.com/radiomemory/api/tree/main/ia/classify) os possíveis valores de retorno (atributos class e subclass).**
 
 Este serviço também deverá retornar um json:
 
