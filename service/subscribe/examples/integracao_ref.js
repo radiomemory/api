@@ -5,13 +5,15 @@ const { default: axios} = require("axios");
 let app = new express();
 
 app.use(express.json({limit: "50mb"}));
-app.use(express.urlencoded({limit: "50mb"}));
+//app.use(express.urlencoded({limit: "50mb"}));
 
 // serviço à ser implementado e hospedado pela operadora
 let rcv_img = (req,res)=>{
     
     // verificar autenticação b2b
-    jwt.verify(req.body.jwt, "86a756afd5fa8ea0635be3f0a0c32897", (err, decoded) => {
+    console.log(req.headers.authorization)
+    let token = req.headers.authorization.replace('Bearer ', '')
+    jwt.verify(token, "86a756afd5fa8ea0635be3f0a0c32897", (err, decoded) => {
         if(err) {
             let responseData = {
                 status: 403,
@@ -24,7 +26,7 @@ let rcv_img = (req,res)=>{
         if(decoded) {
 
             // agora entram as regras de negócio, como exemplo validação de login/senha do credenciado
-            if(req.body.login != "RM" || req.body.pwd != "RM") {
+            if(req.body.login !== "RM" || req.body.pwd !== "RM") {
                 let responseData = {
                     status: 200,
                     error: "usuário/senha inválido"
