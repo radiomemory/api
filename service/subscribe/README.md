@@ -12,7 +12,7 @@ A plataforma Radio Memory possui um recurso para acompanhamento de convênios. O
 ### Criando o serviço local
 A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.com.br/rcv_img) que irá receber uma requisição POST com o  objeto JSON no seguinte formato:
 
-### Request
+```
 POST https://URL/rcv_img
 content-type: application/json
 authorization: Bearer "KEY"
@@ -34,6 +34,7 @@ authorization: Bearer "KEY"
   }
   "requestId": "identificação da requisição"
 }
+```
 
 O exemplo acima explicíta a classificação de uma periapical do canino inferior diretiro. **Veja [aqui](https://github.com/radiomemory/api/tree/main/ia/classify) os possíveis valores de retorno (atributos class e subclass).**
 
