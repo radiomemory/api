@@ -97,7 +97,7 @@ A operadora irá chamar o serviço subscribe informando um objeto JSON:
 }
 ```
 
-Essa chamada será realizada uma única vez, para registrar o serviço. A operadora pode alterar a url chamando novamente o serviço.
+Essa chamada será realizada uma única vez, para registrar e configurar o serviço. A operadora pode alterar a url chamando novamente o serviço.
 
 ### Envios
 Assim que as imagens em questão são publicadas online, um item é incluído em uma fila de processamento. Um serviço consome esta fila, acionando o serviço registrado pela operadora, enviando a imagem e registrando o retorno, permitindo o acompanhamento do processo por parte do cliente/credenciado.
