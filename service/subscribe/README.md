@@ -4,13 +4,21 @@
 ## Integração com operadoras de saúde (https://api.radiomemory.com.br/service/subscribe)
 Receba imagens de seus credenciados assim que a documentação for publicada. A classificação da imagem também é informada.
 
+
+
 ### O que é?
 A plataforma Radio Memory possui um recurso para acompanhamento de convênios. O cliente/credenciado pode encaminhar imagens e exames diretamente à operadora assim que a documentação for publicada.
 
 ### Criando o serviço local
 A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.com.br/rcv_img) que irá receber um objeto json no seguinte formato:
 
+A operadora deve disponibilizar e expor um serviço REST (ex: https://operadora.com.br/rcv_img) que irá receber uma requisição POST com o  objeto JSON no seguinte formato:
+
 ```json
+POST https://URL/rcv_img
+content-type: application/json
+authorization: Bearer "KEY"
+
 {
   "jwt": "chave de autenticação",
   "login": "usuário do credenciado",
@@ -41,18 +49,56 @@ Este serviço também deverá retornar um json:
 ```
 
 ### Registrando o serviço
-A operadora irá chamar o serviço subscribe informando um objeto json:
+A operadora irá chamar o serviço subscribe informando um objeto JSON:
+
 
 ```json
+
+
 {
-  "key": "chave de autenticação",
-  "url": "https://operadora.com.br/rcv_img",
-  "port": 10,
-  "type": "o nível desejado de classificação, 1 ou 2"
+	"key": "chave de autenticação",
+	"url": "https://operadora.com.br/rcv_img",
+	"typeAuth": "jwt|oauth",
+	"urlAuth": "url OAUTH",
+	"cliente_id": "cliente id OAUTH",
+	"cliente_secret": "cliente_secret",
+	"scope": "scope",
+	"itens": [
+		"PANO",
+		"PERI",
+		"IMPD",
+		"MOD",
+		"OINF",
+		"IMPI",
+		"MOD3D",
+		"MOD",
+		"MOD3DC",
+		"MODANA",
+		"IMPR",
+		"OSUP",
+		"IOD",
+		"IOE",
+		"IOF",
+		"CARP",
+		"FRON",
+		"BW",
+		"TELE",
+		"PEDETC",
+		"OTR",
+		"LEVRAD",
+		"CEF",
+		"RXO",
+		"FO",
+		"FIO",
+		"FEO",
+		"TMPLT",
+		"FEO",
+		"FO"
+	]
 }
 ```
 
-Essa chamada será realizada uma única vez, para registrar o serviço. A operadora pode alterar a url (ou o nível desejado de classificação) chamando novamente o serviço.
+Essa chamada será realizada uma única vez, para registrar o serviço. A operadora pode alterar a url chamando novamente o serviço.
 
 ### Envios
 Assim que as imagens em questão são publicadas online, um item é incluído em uma fila de processamento. Um serviço consome esta fila, acionando o serviço registrado pela operadora, enviando a imagem e registrando o retorno, permitindo o acompanhamento do processo por parte do cliente/credenciado.
